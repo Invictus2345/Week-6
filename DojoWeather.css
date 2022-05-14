@@ -1,0 +1,112 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* border: 2px solid black; */
+}
+.Header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    background-color: lightblue;
+    color: white;
+    height: 125px;
+}
+.Cities{
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+}
+h1{
+    font-size: 50px;
+}
+.current_city{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 1100px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+h3{
+    font-size: 40px;
+    width: 300px;
+}
+.temp_bar{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: space-around;
+}
+.weather_box_container{
+    display: flex;
+    justify-content: space-around;
+    width: 1100px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.weather_box{
+    background-color: whitesmoke;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 300px;
+    justify-content: space-around;
+}
+img{
+    border-radius: 50%;
+    width: 126px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.temp{
+    display: flex;
+    justify-content: space-around;
+    font-size: larger;
+    font-weight: 600;
+}
+.red{
+    color: red;
+}
+.blue{
+    color: blue;
+}
+.font_size{
+    font-size: 30px;
+}
+.Cookie_Container{
+    display: flex;
+    width: 1100px;
+    height: 110px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    border: 5px solid black;
+    position: fixed;
+    bottom: 10px;
+    width: 50%;
+    margin-left: 460px;
+}
+#cookie_img{
+    width: 100px;
+    margin: 0px;
+}
+.cookie_message{
+    width: 500px;
+}
+#btn{
+    background-color: lightblue;
+    width: 109px;
+    height: 30px;
+    box-shadow: 5px 3px 3px black;
+}
+#bold{
+    font-size: larger;
+    font-weight: 600;
+}
+#word_size{
+    font-size: larger;
+}

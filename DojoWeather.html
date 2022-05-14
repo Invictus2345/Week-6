@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DojoWeather</title>
+    <link rel="stylesheet" href="DojoWeather.css">
+</head>
+<body>
+    <div>
+        <div class="Header">
+            <h1>DojoWeather</h1>
+            <div class="Cities">
+                <h2 onclick="alert('Loading Weather Report...')">Burbank</h2>
+                <h2 onclick="alert('Loading Weather Report...')">Chicago</h2>
+                <h2 onclick="alert('Loading Weather Report...')">Dallas</h2>
+            </div>
+        </div>
+        <div class="current_city">
+            <h3>San Jose</h3>
+            <div class="temp_bar">
+                <p>show temperature in</p>
+                <select onchange="changefahrenheit(this)" name="temperature" id="temperature">
+                    <option value="Celius">°C</option>
+                    <option value="Fahrenheit" >°F</option>
+                </select>
+            </div>
+        </div>
+        <div class="weather_box_container">
+            <div class="weather_box">
+                <p class="font_size">Today</p>
+                <img src="some_rain.png" alt="rain">
+                <span>some rain</span>
+                <div class="temp">
+                    <span class="red">24°</span>
+                    <span class="blue">18°</span>
+                </div>
+            </div>
+            <div class="weather_box">
+                <p class="font_size">Tomorrow</p>
+                <img src="some_sun.png" alt="sun">
+                <span>some sun</span>
+                <div class="temp">
+                    <span class="red">27°</span>
+                    <span class="blue">19°</span>
+                </div>
+            </div>
+            <div class="weather_box">
+                <p class="font_size">Friday</p>
+                <img src="some_clouds.png" alt="cloud">
+                <span>some clouds</span>
+                <div class="temp">
+                    <span class="red">21°</span>
+                    <span class="blue">16°</span>
+                </div>
+            </div>
+            <div class="weather_box">
+                <p class="font_size">Saturday</p>
+                <img src="some_sun.png" alt="sun">
+                <span>some sun</span>
+                <div class="temp">
+                    <span class="red">26°</span>
+                    <span class="blue">21°</span>
+                </div>
+            </div>
+        </div>
+        <div class="Cookie_Container">
+            <img src="cookie.png" alt="Cookie" id="cookie_img">
+            <div class="cookie_message">
+                <p id="bold">Stop! Cookie time</P>
+                <p id="word_size">We use cookies (sadly not the edible ones) to personalize content and ads, to provide more social media features and to analyse our traffic. <a href="readmore">Read more...</a> </p>
+            </div>
+            <button id="btn" onclick="hide()">I Accept</button>
+        </div>
+    </div>
+    <script src="DojoWeather.js"></script>
+</body>
+</html>
